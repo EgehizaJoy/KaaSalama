@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="type_your_username">Type your Username</string>
+    <string name="email_address">Email address</string>
+    <string name="todo">TODO</string>
+    <string name="stringSiren">siren</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <string name="help_tips">HELP TIPS</string>
+    <string name="counselling_help">COUNSELLING HELP</string>
+    <string name="start">START</string>
+
+</resources>

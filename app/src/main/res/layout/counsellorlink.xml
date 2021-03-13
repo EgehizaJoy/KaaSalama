@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/counsellorlink">
+
+    <Button
+        android:id="@+id/wazi"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginBottom="80dp"
+        android:background="@null"
+        android:fadingEdge="horizontal"
+        android:text="Wazi.co"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/cbt"
+        app:layout_constraintEnd_toEndOf="@+id/cbt"
+        app:layout_constraintStart_toStartOf="@+id/cbt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cbt"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="65dp"
+        android:background="@null"
+        android:text="cbtkenya.org"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/interpersonal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wazi" />
+
+    <Button
+        android:id="@+id/interpersonal"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="101dp"
+        android:background="@null"
+        android:text="Interpersonalheath.com"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/online"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbt" />
+
+    <Button
+        android:id="@+id/online"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="71dp"
+        android:background="@null"
+        android:text="onlinecounselling.io"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interpersonal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
